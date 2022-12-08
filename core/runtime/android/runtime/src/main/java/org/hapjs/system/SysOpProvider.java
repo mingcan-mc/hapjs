@@ -174,4 +174,7 @@ public interface SysOpProvider {
     int getFoldDisplayWidth(Context context);
 
     int getSafeAreaWidth(Context context);
+
+    boolean isEnableTalkBack(Context context);
+
 }
